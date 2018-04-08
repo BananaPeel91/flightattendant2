@@ -1,0 +1,38 @@
+<body>
+
+<div id="app">
+ <form action="done.html" @submit.prevent="handleIt">
+
+ 	<button type="submit">
+ 		Submit me!
+ 	</button>
+
+ 	
+
+ 	</form>
+
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
+
+<script>
+
+new Vue({
+
+	el: '#app',
+
+	methods: {
+
+		handleIt: function(){
+
+			alert('handled');
+		}
+	}
+
+});
+
+</script>
+
+	</body>
+
